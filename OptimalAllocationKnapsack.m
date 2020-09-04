@@ -7,7 +7,7 @@ N=16; %number of customers
 W1=18; %inventory for the first product
 W2=32; %inventory for the second product
 
-sim=100; %number of simulations
+sim=10000; %number of simulations
 
 for v=virtuallow:1:virtualhigh 
     numberofsatisfied=zeros(1,sim);
